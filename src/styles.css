@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+
+.parent {
+    font: bold;
+    color: blue;
+}
+
+.child {
+    font: bold;
+    color:brown;
+}
