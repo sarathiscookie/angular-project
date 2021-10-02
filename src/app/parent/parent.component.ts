@@ -7,8 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ParentComponent implements OnInit {
 
+  toggleText = false;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  toggleFunction(event): void {
+    this.toggleText = !this.toggleText;
+    console.log(event);
   }
 }
