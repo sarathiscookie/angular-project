@@ -9,6 +9,8 @@ export class ParentComponent implements OnInit {
 
   toggleText = false;
 
+  todaysDate  = new Date();
+
   constructor() { }
 
   ngOnInit(): void {
