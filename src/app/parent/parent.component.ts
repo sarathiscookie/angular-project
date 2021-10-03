@@ -7,8 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ParentComponent implements OnInit {
 
+  isDisabled = true;
+
   constructor() { }
 
   ngOnInit(): void {
   }
+
 }
