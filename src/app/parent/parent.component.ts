@@ -7,17 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ParentComponent implements OnInit {
 
-  toggleText = false;
-
-  todaysDate  = new Date();
-
   constructor() { }
 
   ngOnInit(): void {
-  }
-
-  toggleFunction(event): void {
-    this.toggleText = !this.toggleText;
-    console.log(event);
   }
 }
