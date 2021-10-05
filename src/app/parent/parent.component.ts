@@ -6,9 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./parent.component.css']
 })
 export class ParentComponent implements OnInit {
-
-  isDisabled = true;
-
+  
   constructor() { }
 
   ngOnInit(): void {
