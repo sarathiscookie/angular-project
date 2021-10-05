@@ -1,1 +1,33 @@
 <p>Parent Works!</p>
+
+<div [class.table-responsive]="responsive">
+ <table [class]="['table', 'table-striped', 'table-hover', 'table-bordered']">
+    <thead [class]="'table-dark'">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td [attr.success]="customerSuccess">Mark</td>
+        <td>Otto</td>
+        <td [class]="['table-success']">@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td [style]="'font-weight: bold; font-style: italic;'">Jacob</td>
+        <td>Thornton</td>
+        <td [class]="'table-warning'">@fat</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td [attr.colspan]="2">Larry the Bird</td>
+        <td [class.table-info]="tableInfo">@twitter</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
