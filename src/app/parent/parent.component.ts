@@ -12,12 +12,4 @@ export class ParentComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  receiveEmittedEvent(event) {
-    alert(event);
-  }
-
-  submitEvent() {
-    alert('submitted');
-  }
-
 }
