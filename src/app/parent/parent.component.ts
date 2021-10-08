@@ -12,8 +12,4 @@ export class ParentComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  callPhoneNumber(phone: string) {
-    console.log(phone);
-  }
-
 }
