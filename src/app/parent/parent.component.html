@@ -1,1 +1,38 @@
 <p>Parent Works!</p>
+
+<button [ngClass]="isSpecial ? 'btn btn-sm btn-primary' : ''">Click Here</button>
+
+<br>
+<br>
+
+<a [ngClass]="isActive ? 'active' : ''">Download</a>
+
+<br>
+<br>
+
+<table [ngClass]="classes"> 
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>First</th>
+        <th>Last</th>
+        <th>Handle</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <th>1</th>
+        <td [ngStyle]="styles">Mark</td>
+        <td>Otto</td>
+        <td [ngClass]="tdClass">@mdo</td>
+      </tr>
+
+      <tr [ngClass]="trClass">
+        <th>2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+    </tbody>
+</table>
