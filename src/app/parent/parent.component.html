@@ -1,1 +1,15 @@
 <p>Parent Works!</p>
+
+<h4>{{ heading }}</h4>
+<br>
+<input value="{{feedback}}">
+<br>
+<p style.color="{{sColor}}">At what time will conclude out todays discussion</p>
+<p (click)="eventDemo()">Answer to our question</p>
+<p> Training outcome: {{sOutCome}}</p>
+<input [(ngModel)]="sOutCome"/>
+
+
+<br />
+
+<div #myDiv>Content will change</div>
